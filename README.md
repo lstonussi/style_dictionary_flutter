@@ -7,7 +7,7 @@ style dictionary test repository
 Styling
 We are using the amazon style dictionary, to use it is necessary to install the CLI using the command:
 
-$ npm install -g style-dictionary
+```$ npm install -g style-dictionary```
 
 done that the folder structure should look like this:
 
