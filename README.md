@@ -4,13 +4,26 @@ A new Flutter project.
 
 ## Getting Started
 
-This project is a starting point for a Flutter application.
+Styling
+We are using the amazon style dictionary, to use it is necessary to install the CLI using the command:
 
-A few resources to get you started if this is your first Flutter project:
+$ npm install -g style-dictionary
 
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
+done that the folder structure should look like this:
 
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+├── lib
+├── config.json
+├── style/
+│   ├── brand-tokens.json
+│   ├── global-tokens.json
+To generate the classes run the command:
+
+Generate separated:
+
+style-dictionary build -p flutter-separate
+
+Generate unified
+
+style-dictionary build -p flutter
+
+Github: https://github.com/amzn/style-dictionary
